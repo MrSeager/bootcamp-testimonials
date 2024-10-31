@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bootcamp-testimonials/static/css/main.294d4736.css",
+    "main.js": "/bootcamp-testimonials/static/js/main.531ba818.js",
+    "static/js/453.1d85ef6e.chunk.js": "/bootcamp-testimonials/static/js/453.1d85ef6e.chunk.js",
+    "static/media/image-john.jpg": "/bootcamp-testimonials/static/media/image-john.5253a557aa7d00d8466f.jpg",
+    "static/media/image-tanya.jpg": "/bootcamp-testimonials/static/media/image-tanya.f54c06576a4cdc261099.jpg",
+    "static/media/pattern-bg.svg": "/bootcamp-testimonials/static/media/pattern-bg.7f46e67e7d84324800ef.svg",
+    "index.html": "/bootcamp-testimonials/index.html",
+    "static/media/pattern-quotes.svg": "/bootcamp-testimonials/static/media/pattern-quotes.219bd182b41259a321a8.svg",
+    "static/media/pattern-curve.svg": "/bootcamp-testimonials/static/media/pattern-curve.05698a95740cb41f8c3c.svg",
+    "main.294d4736.css.map": "/bootcamp-testimonials/static/css/main.294d4736.css.map",
+    "main.531ba818.js.map": "/bootcamp-testimonials/static/js/main.531ba818.js.map",
+    "453.1d85ef6e.chunk.js.map": "/bootcamp-testimonials/static/js/453.1d85ef6e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.294d4736.css",
+    "static/js/main.531ba818.js"
+  ]
+}
