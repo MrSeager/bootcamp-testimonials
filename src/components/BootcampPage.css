@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:300,500,700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.cs-w {
+    width: 80% !important;
+}
+
+.cs-overlap {
+    width: 120% !important;
+}
+
+.cs-index-1 {
+    z-index: 1;
+}
+
+.cs-index-2 {
+    z-index: 2;
+}
+
+/*Background*/
+.cs-bg-image {
+    background: url('../images/pattern-bg.svg') no-repeat 90% center / 40%, 
+                url('../images/pattern-curve.svg') no-repeat left bottom / 40%,
+                url('../images/pattern-quotes.svg') no-repeat 23% 20% / 10%;
+}
+
+/*Font*/
+.cs-fw-300 {
+    font-weight: 300 !important;
+}
+
+.cs-fw-500 {
+    font-weight: 500 !important;
+}
+
+.cs-fw-700 {
+    font-weight: 700 !important;
+}
+
+.cs-tc-dark-blue {
+    color: hsl(240, 38%, 20%) !important;
+}
+
+.cs-tc-grayish-blue {
+    color: hsl(240, 18%, 77%) !important;
+}
+
+/*Buttons*/
+.cs-position {
+    position: relative;
+}
+
+.cs-btns-group {
+    position: absolute;
+    bottom: -3%;
+    left: 15%;
+    transform: translateX(-50%);
+}
+
+.cs-btn-back {
+    border-radius: 50% 0 0 50% !important;
+}
+
+.cs-btn-forward {
+    border-radius: 0 50% 50% 0 !important;
+}
+
+.cs-btn {
+    border: 0 !important;
+    background-color: white !important;
+    transition: .5s !important;
+}
+
+.cs-btn:hover {
+    background-color: hsl(240, 38%, 20%) !important;
+    color: hsl(240, 18%, 77%) !important;
+}
+
+@media (max-width: 991px) {
+    .cs-w {
+        width: 100% !important;
+    }
+
+    .cs-overlap {
+        width: 100% !important;
+    }
+
+    .cs-btns-group {
+        left: 45%;
+    }
+
+    .cs-bg-image {
+        background: url('../images/pattern-bg.svg') no-repeat center 2% / 90%, 
+                    url('../images/pattern-curve.svg') no-repeat left bottom / 70%,
+                    url('../images/pattern-quotes.svg') no-repeat center 67% / 15%;
+    }
+}
